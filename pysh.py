@@ -1,5 +1,5 @@
 print("   |Python pyShell")
-print("   |pysh")
+print("   |pysh0.0.2")
 print("   |The source code is in https://github.com/hellowindowZ/pysh")
 while True:
     inp = input(">>>|")
@@ -9,7 +9,7 @@ while True:
         try:
             exec(inp)
         except Exception as e:
-            print("Error: {e}\n")
+            print("Error: ",e)
 
 
 
